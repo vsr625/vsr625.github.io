@@ -1,0 +1,17 @@
+baseURL = "https://vsr625.github.io"
+theme = 'hugo-bearblog'
+title = "Test Blog"
+author = "Subramani Raju"
+languageCode = "en-US"
+enableRobotsTXT = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
+
+[params]
+  description = "Test Blog"
+  title = "Test Blog"
+  hideMadeWithLine = true
